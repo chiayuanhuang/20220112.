@@ -1,0 +1,191 @@
+body {
+    font-size: 14px;
+    background: #3B413C;
+}
+
+.wrap {
+    background: #e8f8f7;
+    width: 1000px;
+    margin: 60px auto;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 14px rgba(0, 0, 0, .50);
+    font-family: sans-serif;
+    color: #502c3a;
+}
+
+.h2 {
+    font: size 16px;
+}
+
+
+/* header */
+
+.header {
+    overflow: hidden;
+}
+
+.header .pic {
+    width: 600px;
+    height: 340px;
+    float: left;
+    margin-right: 30px;
+}
+
+.header .pic img {
+    width: 600px;
+    height: 340px;
+    object-fit: cover;
+}
+
+.header .info {}
+
+.header .info h1 {
+    font-size: 20px;
+    margin-bottom: 140px;
+}
+
+.header .info p {
+    margin-bottom: 30px;
+}
+
+.header .info .social {}
+
+.header .info .social a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.header .info .social a img {
+    width: 32px;
+    height: 32px;
+}
+
+.header .info .mail {}
+
+.header .info .mail::before {
+    content: "Mail:";
+}
+
+.header .info .mail a {
+    text-decoration: none;
+    color: #502c3a
+}
+
+.header .info .phone {}
+
+.header .info .phone::before {
+    content: "Phone:";
+}
+
+
+/* software */
+
+.software {}
+
+.software {}
+
+.software ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.software ul li {
+    width: 33%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.software ul li span {
+    color: #CC5A71;
+}
+
+
+/* Professional */
+
+.Professional {
+    height: 150px;
+}
+
+.Professional ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.Professional ul li {
+    width: 33%;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.Professional ul li span {
+    color: #CC5A71;
+}
+
+
+/* Awards */
+
+.Awards {
+    width: 1000px;
+    height: 250px;
+}
+
+.Awards ul {
+    list-style: none;
+    padding: 0px;
+    float: left;
+    width: 50%;
+}
+
+.Awards ul li {
+    margin-bottom: 10px;
+}
+
+
+/* experience */
+
+.experience {
+    width: 1000px;
+    height: 150px;
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.experience ul li {
+    width: 50%;
+    float: left;
+    /* margin-bottom: 40px; */
+}
+
+
+/* work  */
+
+.work {
+    overflow: hidden;
+}
+
+.work .pic {
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.work .pic img {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    transition: 1s all;
+}
+
+.work .pic :hover {
+    transform: scale(1.3);
+}
